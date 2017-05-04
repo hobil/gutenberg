@@ -4,10 +4,7 @@ For best functionality copy the folder implementation to the hard drive.
 
 Folder implementation/books contains texts of books NOT used for training the classifiers. There are some texts not contained in PG.
 
-The classifiers were trained on documents with the majority being from the 19th century and category Language and literature. It wasa trained on 1 400 classical authors, so the author label will be incorrect if the author was not in the training set.
-
-In case of any problems or to see the actual version, refer to:
-https://github.com/hobil/gutenberg.
+The classifiers were trained on documents with the majority being from the 19th century and category Language and literature. It was trained on 1 400 classical authors, so the author label will be incorrect if the author was not in the training set.
 
 
 RUNNING SCRIPTS
