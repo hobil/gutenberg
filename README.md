@@ -7,20 +7,25 @@ The classifiers were trained on documents with the majority being from the 19th 
 
 RUNNING SCRIPTS
 ===============
-The code is tested for python 3.6.
-First, install required modules:
+The code is tested for python 3.6. First, install required modules:
+
 `pip install -r requirements.txt`
 
-Then download English corpus for spacy:
+Then download English corpus for `spacy`:
+
 `python -m spacy download en`
 
-And stopwords and punkt tokenizer for nltk:
-`python -m nltk.downloader stopwords`
+Download stopwords and punkt tokenizer for `nltk`:
 
-`python -m nltk.downloader punkt`
+```
+python -m nltk.downloader stopwords
+python -m nltk.downloader punkt
+```
 
 To make predictions for a given text, run:
->>> python inspect_text.py -f books/hamlet.txt
+
+`python inspect_text.py -f books/hamlet.txt`
 
 To save the pdf with character interactions:
->>> python character_interaction.py -f books/sherlock.txt output.pdf
+
+`python character_interaction.py -f books/sherlock.txt output.pdf`
