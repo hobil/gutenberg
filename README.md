@@ -7,19 +7,20 @@ The classifiers were trained on documents with the majority being from the 19th 
 
 RUNNING SCRIPTS
 ===============
-For both inspect_text and character_interaction, spacy is needed:
->>> pip install spacy
->>> python3 -m spacy download en
+The code is tested for python 3.6.
+First, install required modules:
+`pip install -r requirements.txt`
 
-For character_interaction, networkx is needed:
->>> pip install networkx
+Then download English corpus for spacy:
+`python -m spacy download en`
 
+And stopwords and punkt tokenizer for nltk:
+`python -m nltk.downloader stopwords`
 
+`python -m nltk.downloader punkt`
 
 To make predictions for a given text, run:
->>> python3 inspect_text.py -f books/hamlet.txt
+>>> python inspect_text.py -f books/hamlet.txt
 
 To save the pdf with character interactions:
->>> python3 character_interaction.py -f books/sherlock.txt output.pdf
-
-
+>>> python character_interaction.py -f books/sherlock.txt output.pdf
