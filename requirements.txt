@@ -3,7 +3,7 @@ numpy==1.16.1
 scipy==1.2.1
 pandas==0.18.1
 scikit-learn==0.18.1
-nltk==3.4
+nltk==3.6.4
 spacy==1.9
 matplotlib==2.2.3
 networkx==2.2
